@@ -4,3 +4,10 @@
  !.env.example
  *.log
  .DS_Store
+
+# SQLx offline data (optional; only present if you use `cargo sqlx prepare`)
+.sqlx/
+
+# IDE/editor
+.idea/
+.vscode/
