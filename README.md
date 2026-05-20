@@ -7,14 +7,7 @@
  - **Lookup** a product by barcode/GTIN
  - **Submit claims** (legit/suspect) against products
  - Explore and test APIs via **Swagger UI**
- 
- ### Why this structure (for Python devs)
- If you’re coming from FastAPI/Flask/Django:
- - **Axum router** ≈ FastAPI routes / Flask blueprints
- - **Extractors** (`Json<T>`, `State`, headers) ≈ FastAPI dependencies / request parsing
- - **Services** hold business logic (like Django service layers)
- - **SQLx** is the DB layer (queries + migrations)
- 
+  
  ### Tech stack
  - **API**: `axum`
  - **DB**: PostgreSQL + `sqlx` migrations
